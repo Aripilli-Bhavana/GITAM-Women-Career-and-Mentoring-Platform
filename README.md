@@ -122,5 +122,3 @@ npm run lint     # Check code quality
 **Department:** Computer Science & Engineering  
 **University:** GITAM Deemed to be University
 ```
-
-This is **clean, professional, and presentation-ready** - no unnecessary details, just what the project actually does.
