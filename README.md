@@ -1,73 +1,126 @@
-# Welcome to your Lovable project
+Here's a **clean, concise README** focusing only on the project essentials:
 
-## Project info
+```markdown
+# GITAM Women Career & Mentorship Platform
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+A comprehensive digital platform for women students of GITAM University to connect with mentors, access career tools, and discover opportunities.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+### 🔐 Authentication
+- Role-based login (Student, Mentor, Admin)
+- Secure JWT authentication
+- Protected routes based on user role
 
-**Use Lovable**
+### 👩‍🎓 Student Dashboard
+- View assigned mentor details
+- Check upcoming meetings
+- Update academic profile and skills
+- Access career development tools
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### 👩‍🏫 Mentor Portal
+- Manage availability status
+- Connect with students
+- Schedule meetings
+- Provide career guidance
 
-Changes made via Lovable will be committed automatically to this repo.
+### 💬 Real-time Chat
+- Instant messaging with mentors/students
+- Online/offline status
+- Message history
 
-**Use your preferred IDE**
+### 🛠️ Career Tools
+- Resume builder and parser
+- ATS compatibility checker
+- Skills roadmap generator
+- Interview preparation resources
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 📢 Announcements
+- Platform updates and notifications
+- Workshop and opportunity alerts
+- Category-based filtering
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### ⚙️ Admin Panel
+- User management
+- Mentor approval system
+- Announcement posting
+- Platform analytics
 
-Follow these steps:
+## Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Frontend:** React 19, TypeScript, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** PostgreSQL (via Supabase)
+- **Authentication:** JWT, Role-based access control
+- **Real-time:** WebSocket connections
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Quick Start
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. Clone the repository:
+```bash
+git clone https://github.com/Aripilli-Bhavana/GITAM-Women-Career-and-Mentoring-Platform-Dept-CSE.git
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open browser: `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Demo Credentials
 
-**Use GitHub Codespaces**
+- **Student:** student@gitam.edu / password123
+- **Mentor:** mentor@gitam.edu / password123  
+- **Admin:** admin@gitam.edu / password123
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── pages/           # Main application pages
+├── components/      # Reusable UI components  
+├── hooks/           # Custom React hooks
+├── contexts/        # React context providers
+└── integrations/    # External service integrations
+```
 
-This project is built with:
+## Key Pages
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- `/` - Home page
+- `/auth` - Login/Register
+- `/dashboard` - Role-based dashboard
+- `/mentors` - Mentor listing and chat
+- `/career-path` - Career development tools
+- `/internships` - Opportunity listings
+- `/resume-parser` - Resume analysis tool
 
-## How can I deploy this project?
+## Database
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+PostgreSQL database with tables for:
+- Users (students, mentors, admins)
+- Meetings and sessions
+- Messages and chats
+- Announcements and notifications
 
-## Can I connect a custom domain to my Lovable project?
+## Run Commands
 
-Yes, you can!
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run lint     # Check code quality
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Department:** Computer Science & Engineering  
+**University:** GITAM Deemed to be University
+```
+
+This is **clean, professional, and presentation-ready** - no unnecessary details, just what the project actually does.
